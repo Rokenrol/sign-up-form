@@ -65,13 +65,16 @@ section.decor {
     margin-bottom: 100px;
 }
 
+.form-description p:first-child {
+    width: 410px;
+}
+
 .form-description > p + p {
     margin-top: 2rem;
 }
 
 .main {
-    padding-left: 2rem;
-    background-color: lightgray;
+    background-color: rgba(249, 250, 251, 1);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -115,4 +118,5 @@ li > input {
 
 .account-create {
     margin: 50px 0 50px 0;
+    background-color: rgba(249, 250, 251, 1);
 }
