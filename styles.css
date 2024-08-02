@@ -6,9 +6,21 @@
     box-sizing: border-box;
 }
 
+/*Custom fonts for Odin text */
+
+@font-face {
+    font-family: 'Swash';
+    src: url(./fonts/devinne-swash-font/DevinneSwash-qZd5.ttf)
+}
+
+@font-face {
+    font-family: 'Swash-shadow';
+    src: url(./fonts/devinne-swash-font/DevinneSwashShadow-VGjB.ttf);
+}
+
 body {
 margin: 0 auto;
-width: 800px;
+width: 70%;
 outline: 1px solid red;
 }
 
@@ -29,12 +41,21 @@ section.decor {
 }
 
 .decor-image-box {
-    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
     height: 200px;
     width: 400px;
-    background-color: aqua;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .decor-image-box > img {
-    height: inherit;
+    height: 70%;
+}
+
+.decor-image-box > p {
+    font-family: 'Swash';
+    color: rgb(255, 255, 255);
+    font-size: 5rem;
 }
