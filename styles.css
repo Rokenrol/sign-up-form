@@ -84,10 +84,6 @@ section.decor {
 
 /* Form */
 
-.form {
-
-}
-
 .call-to-action {
     margin: 20px 0 20px 0;
 }
@@ -123,24 +119,44 @@ li {
 li > label {
     display: inline-block;
     min-width: 10rem;
+    text-transform: uppercase;
+    font-size: smaller;
 }
 
 li > input {
 width: 200px;
-
+height: 25px;
+appearance: none;
+border: 1px solid rgb(222, 222, 223);
+border-radius: 3px;
 }
 
+/*Account button section */
+
 .account-create {
-    margin: 50px 0 50px 0;
+    margin: 26px 0 50px 0;
     background-color: rgba(249, 250, 251, 1);
 }
 
 .account-create > button {
-    width: 150px;
-    height: 40px;
+    width: 175px;
+    height: 43px;
+    margin-left: 30px;
     border: none;
-    border-radius: 4px;
+    border-radius: 6px;
+    box-shadow: 0px 4px 10px -2px rgb(201,199,199);
     color: white;
     font-weight: 800;
     background-color: #596D48;
+}
+
+.account-question {
+    margin: 30px 0 0 30px;
+    font-weight: bold;
+}
+
+.login > a {
+    text-decoration: none;
+    color: #596D48;
+    font-weight: bolder;
 }
