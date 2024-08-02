@@ -62,7 +62,8 @@ section.decor {
 /* Main section with form element */
 
 .form-description {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+    margin-left: 30px;
 }
 
 .form-description p:first-child {
@@ -78,6 +79,7 @@ section.decor {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 80%;
 }
 
 /* Form */
@@ -86,34 +88,45 @@ section.decor {
 
 }
 
+.call-to-action {
+    margin: 20px 0 20px 0;
+}
+
 .inputs {
     background-color: white;
     padding-bottom: 30px;
     box-shadow: 0px 4px 10px -2px rgb(201,199,199), 0px -4px 11px -7px rgb(201,199,199);
+    border: 1px solid white;
+    width: 70%;
+    padding-left: 30px;
 }
 
 ul {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 8rem;
+    height: 150px;
+    width: 400px;
     list-style-type: none;
-
 }
 
-ul > li {
-    margin-top: 20px;
-    flex: 1;
+li {
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: column;
+    justify-content: center;
+    height: 50px;
+    margin-right: 20px;
+    outline: 1px solid red;
 }
 
 li > label {
     display: inline-block;
     min-width: 10rem;
-    background-color: tan;
 }
 
 li > input {
-    flex: 0 1 50px;
+width: 200px;
 
 }
 
