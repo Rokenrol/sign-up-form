@@ -29,7 +29,6 @@ outline: 1px solid red;
 .container {
     min-height: 100vh;
     display: flex;
-    width: 75%;
 }
 
 /* Image section */
@@ -58,4 +57,62 @@ section.decor {
     font-family: 'Swash';
     color: rgb(255, 255, 255);
     font-size: 5rem;
+}
+
+/* Main section with form element */
+
+.form-description {
+    margin-bottom: 100px;
+}
+
+.form-description > p + p {
+    margin-top: 2rem;
+}
+
+.main {
+    padding-left: 2rem;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Form */
+
+.form {
+    background-color: white;
+}
+
+.inputs {
+
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 8rem;
+    list-style-type: none;
+
+}
+
+ul > li {
+    margin-top: 20px;
+    flex: 1;
+    display: flex;
+}
+
+li > label {
+    display: inline-block;
+    width: 10rem;
+    background-color: tan;
+}
+
+li > input {
+    flex: 0 1 50px;
+
+}
+
+.account-create {
+    margin: 50px 0 50px 0;
 }
