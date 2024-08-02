@@ -21,7 +21,6 @@
 body {
 margin: 0 auto;
 width: 70%;
-outline: 1px solid red;
 }
 
 /* Main container */
@@ -29,6 +28,7 @@ outline: 1px solid red;
 .container {
     min-height: 100vh;
     display: flex;
+    justify-content: center;
 }
 
 /* Image section */
@@ -64,13 +64,16 @@ section.decor {
 .form-description {
     margin-bottom: 50px;
     margin-left: 30px;
+    font-weight: bolder;
+    font-size: larger;
+    line-height: 1.2;
 }
 
 .form-description p:first-child {
-    width: 410px;
+    width: 520px;
 }
 
-.form-description > p + p {
+.form-description > p + p + p {
     margin-top: 2rem;
 }
 
@@ -79,13 +82,16 @@ section.decor {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 80%;
+    max-width: 80%;
+    min-width: 600px;
 }
 
 /* Form */
 
 .call-to-action {
     margin: 20px 0 20px 0;
+    font-size: larger;
+    font-weight: bolder;
 }
 
 .inputs {
@@ -93,7 +99,7 @@ section.decor {
     padding-bottom: 30px;
     box-shadow: 0px 4px 10px -2px rgb(201,199,199), 0px -4px 11px -7px rgb(201,199,199);
     border: 1px solid white;
-    width: 70%;
+    min-width: 70%;
     padding-left: 30px;
 }
 
@@ -113,7 +119,6 @@ li {
     justify-content: center;
     height: 50px;
     margin-right: 20px;
-    outline: 1px solid red;
 }
 
 li > label {
