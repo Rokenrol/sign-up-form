@@ -1,0 +1,40 @@
+/* Basic CSS reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+margin: 0 auto;
+width: 800px;
+outline: 1px solid red;
+}
+
+/* Main container */
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    width: 75%;
+}
+
+/* Image section */
+
+section.decor {
+    background-image: url(./images/mountain-lake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.decor-image-box {
+    margin-top: 200px;
+    height: 200px;
+    width: 400px;
+    background-color: aqua;
+}
+
+.decor-image-box > img {
+    height: inherit;
+}
