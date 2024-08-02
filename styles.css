@@ -104,12 +104,11 @@ ul {
 ul > li {
     margin-top: 20px;
     flex: 1;
-    display: flex;
 }
 
 li > label {
     display: inline-block;
-    width: 10rem;
+    min-width: 10rem;
     background-color: tan;
 }
 
@@ -121,4 +120,14 @@ li > input {
 .account-create {
     margin: 50px 0 50px 0;
     background-color: rgba(249, 250, 251, 1);
+}
+
+.account-create > button {
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: 800;
+    background-color: #596D48;
 }
